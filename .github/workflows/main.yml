@@ -2,7 +2,7 @@ name: Setup and Run main.py
 
 on:
   schedule:
-    - cron: '1 */6 * * *'  # Runs every 6 hours and 1 minute
+    - cron: '5 */6 * * *'  # Runs every 6 hours and 1 minute
   workflow_dispatch:  # Allows manual triggering
 
 jobs:
